@@ -11,6 +11,14 @@ quickly get started with building self-hosted AI workflows.
 > [!TIP]
 > [Read the announcement](https://blog.n8n.io/self-hosted-ai/)
 
+### Environment variables
+
+A `.env.example` file is included as a template for configuring your own
+environment variables. Copy it to `.env` and replace the values with your
+secrets before starting the stack. The `.env` file should **never** be committed
+to version control&mdash;it is listed in `.gitignore` so your secrets remain
+private.
+
 ### What’s included
 
 ✅ [**Self-hosted n8n**](https://n8n.io/) - Low-code platform with over 400
